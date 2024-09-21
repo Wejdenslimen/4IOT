@@ -1,0 +1,139 @@
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size:2em;
+font-weight: bold;
+color : #fff;
+}
+
+.custom-nav .custom-nav-item a{
+    color : #fff !important;
+}
+.custom-nav-item:hover{
+    background-color:  #f5b8b8;
+    border: solid  #f5b8b8 1px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+body {
+    overflow-x: hidden;
+}
+.remove-vid-marg{
+    margin: 0px;
+    padding: 0px;
+}
+
+.vid-parent{
+    position: relative;
+    overflow: hidden;
+}
+.video{
+    width: 100%;
+    height: 100%;
+
+}
+
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+
+.vid-content{
+    position: absolute;
+    z-index: 2;
+    top : 35%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+}
+.fo{
+    font-family: 'PT Serif', serif;
+}
+
+@media screen and (min-width:0px)and(max-width: 700px){
+    .my-content,
+    .txt-banner ,
+    .stripe {
+        display: none;
+    }
+
+    .vid-content{
+        top:12%;
+        left: 60%;
+    }
+
+    .custom-nav .custom-nav-item{
+        padding:10px 20px ;
+        background-color: #225470;
+}}
+
+.card-img-top {
+    max-height: 200px; /* Ajustez la hauteur maximale selon vos besoins */
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+.card {
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    width: 250px;
+    margin-right: 20px; /* Ajoutez la marge souhaitée entre les cartes */
+    border: 2px solid #b8294d; /* Épaisseur et couleur de la bordure */
+    border-radius: 15px; /* Rayon des coins pour rendre la bordure arrondie */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet de relief */
+    display: flex; /* Utilise la flexbox pour aligner les éléments internes */
+    flex-direction: column; /* Empile les éléments verticalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    
+}
+
+.card-title{
+    color: #69041e;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.card-text{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.stripe {
+    background-image: linear-gradient(240deg, #97062a, #550619);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+    transform: rotate(10deg); /* Correction ici : pas d'espace entre le nombre et "deg" */
+    z-index: -5;
+}
+.tit{
+    font-family: 'Anton', sans-serif;
+}
+
+.btn-pink {
+    background-color: #61061a; /* Code couleur pour le rose (vous pouvez ajuster la couleur selon vos préférences) */
+    border-color: #61061a; /* Couleur de la bordure du bouton */
+    font-family: 'PT Serif', serif;
+}
+
+.pic{
+    max-height: 200px; /* Ajustez la hauteur maximale selon vos besoins */
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+.il{
+    max-height: 200px; /* Ajustez la hauteur maximale selon vos besoins */
+    max-width: 100px;
+    
+}
+
